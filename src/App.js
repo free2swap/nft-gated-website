@@ -25,7 +25,7 @@ export default function App() {
 
   // Replace this address with your NFT Drop address!
   const editionDrop = useEditionDrop(
-    "0x1fCbA150F05Bbe1C9D21d3ab08E35D682a4c41bF"
+    "0x2c4526F66ECf52B90E632C0f65CffDfE48625faa"
   );
   const { data: balance, isLoading } = useNFTBalance(editionDrop, address, "0");
 
